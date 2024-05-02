@@ -1,11 +1,11 @@
 # AI to play Concept
 
-[Concept](https://en.wikipedia.org/wiki/Concept_(board_game)) is a board game where players must guess a word, a name or a phrase using pictures.
+[Concept](https://en.wikipedia.org/wiki/Concept_(board_game)) is a board game where players must guess a concept using pictures.
 
 We would like to code an AI playing concept.
 There are 2 roles:
-* Encoder: select the pictures
-* Decoder: retrieve the initial word, name or phrase.
+* Encoder: select the pictures from a concept
+* Decoder: retrieve the concept from the pictures
 
 The repository contains:
 * encoder.py -> skeleton of Python code for the encoder
