@@ -1,21 +1,21 @@
-def encode(label):
+def encode(concept):
     """Encoder for Concept.
     
     Parameter
     ---------
-    label: str
-        Label to encode.
+    concept: str
+        Concept to encode.
         
     Returns
     -------
     code: list of lists of integers
-        Each list corresponds to a marker, starting with the green (main concept).
-        The first element of each list is the concept, the others are the attributes.
+        Each list corresponds to a marker, starting with the green.
+        The first element of each list is the concept (= question or exclamation marker), the others are the attributes (= cubes).
         There are at most 5 lists, each of length at most 10.
         
     Example
     -------
-    Label = Honey
+    Concept = Honey
     Code = [[26], [6, 21, 110, 112]]
     Meaning = Food (main concept) related to bees (secondary concept) coded as yellow-and-black flying animals.
     """
