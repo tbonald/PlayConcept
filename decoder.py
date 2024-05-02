@@ -4,25 +4,24 @@ def decode(code, candidates):
     Parameter
     ---------
     code: list of lists of integers
-        Code to decode.
-        Each list corresponds to a marker, starting with the green (main concept).
-        The first element of each list is the concept, the others are the attributes.
+        Each list corresponds to a marker, starting with the green.
+        The first element of each list is the marker (= question / exclamation mark), the others are the attributes (= cubes).
         There are at most 5 lists, each of length at most 10.
         
     candidates: list of str
-        Candidate labels.
+        Candidate concepts.
         
     Returns
     -------
-    label: str
-        Label.
+    concept: str
+        Concept.
         
     Example
     -------
     Candidates = ['Apple', 'Honey', 'House']
     Code = [[26], [6]]
     Decoding = Food (main concept) related to an animal (secondary concept).
-    Label = Honey
+    Expected concept = 'Honey'
     """
-    label = ''
-    return label
+    concept = ''
+    return concept
