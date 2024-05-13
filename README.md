@@ -11,4 +11,5 @@ The repository contains:
 * encoder.py -> skeleton of Python code for the encoder
 * decoder.py -> skeleton of Python code for the decoder
 * codes.csv -> words associated with each picture of the board
+* selection.txt -> selection of concepts to be guessed
   
