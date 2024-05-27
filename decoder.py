@@ -13,15 +13,15 @@ def decode(code, candidates):
         
     Returns
     -------
-    concept: str
-        Concept.
+    concept: list of str
+        Concepts (up to 5, listed from the most relevant to the less relevant).
         
     Example
     -------
     Candidates = ['Apple', 'Honey', 'House']
     Code = [[26], [6]]
     Decoding = Food (main concept) related to an animal (secondary concept).
-    Expected concept = 'Honey'
+    Output = ['Honey', 'Apple']
     """
-    concept = ''
+    concept = ['']
     return concept
